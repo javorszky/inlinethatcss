@@ -25,7 +25,7 @@ Instead of using `<link href="style.css">`, just use `<?php inline_css( '/style.
 
 ## The functions
 
-Look in the `functions.php` file. Chances are you will need to modify bits of it. The path to where you store the images to start with.
+Look in the `functions.php` file. Chances are you will need to modify bits of it. The path to where you store the images to start with. There's also a function that is WordPress specific function (`get_stylesheet_directory_uri()`), which essentially just returns the URL for the directory where the specific file is. Feel free to replace it with your own.
 
 # Questions?
 
